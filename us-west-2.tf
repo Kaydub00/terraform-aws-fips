@@ -22,6 +22,8 @@ provider "aws" {
         dynamodb       = "https://dynamodb-fips.us-west-2.amazonaws.com"
         ec2             = "https://ec2-fips.us-west-2.amazonaws.com"
         ecr = "https://ecr-fips.us-west-2.amazonaws.com"
+        efs = "https://elasticfilesystem-fips.us-west-2.amazonaws.com"
+        eks = "https://fips.eks.us-west-2.amazonaws.com"
         elasticache = "https://elasticache-fips.us-west-2.amazonaws.com"
         elasticbeanstalk = "https://elasticbeanstalk-fips.us-west-2.amazonaws.com"
         elb = "https://elasticloadbalancing-fips.us-west-2.amazonaws.com"
