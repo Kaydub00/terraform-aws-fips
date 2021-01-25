@@ -30,6 +30,7 @@ provider "aws" {
         ec2             = "https://ec2.us-gov-east-1.amazonaws.com"
         ecr = "https://ecr-fips.us-gov-east-1.amazonaws.com"
         ecs = "https://ecs-fips.us-gov-east-1.amazonaws.com"
+        efs = "https://elasticfilesystem-fips.us-gov-east-1.amazonaws.com"
         elasticache = "https://elasticache.us-gov-east-1.amazonaws.com"
         elasticbeanstalk = "https://elasticbeanstalk.us-gov-east-1.amazonaws.com"
         elb = "https://elasticloadbalancing.us-gov-east-1.amazonaws.com"
